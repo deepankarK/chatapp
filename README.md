@@ -20,4 +20,50 @@ This is a simple encrypted chat application built in Python using sockets and th
 
    ```bash
    git clone https://github.com/yourusername/simple-encrypted-chat.git
+   ```
+2. **Navigate to the client directory:**
+
+   ```bash
+   cd simple-encrypted-chat/client
+   ```
+
+3. **Install the dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the server:
+
+   ```bash
+   python3 server.py
+   ```
+
+### Client
+
+1. **Navigate to the client directory:**
+
+   ```bash
+   cd simple-encrypted-chat/client
+   ```
+2. **Install the dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the server:
+
+   ```bash
+   python3 client.py
+   ```
+4. **Enter the username and start sending encrypted messages.
+   
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the [cryptography](https://cryptography.io/) library for providing encryption functionality.
 
